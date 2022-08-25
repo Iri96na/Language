@@ -2,7 +2,7 @@
 
 Console.WriteLine("Введите число ");
 int num = int.Parse(Console.ReadLine());
-int current = num % 2;
+int current = 1;
 
 while (current <= num)
 {
