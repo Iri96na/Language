@@ -5,4 +5,11 @@ int num = int.Parse(Console.ReadLine());
 
 int result = (num / 10) % 10;
 
-Console.WriteLine ($"{num} -> {result}");
+if (99 > num || num > 999)
+{
+   Console.WriteLine ($"{num} -> {"число не трехзначное"}");
+}
+else
+{
+     Console.WriteLine ($"{num} -> {result}"); 
+}
